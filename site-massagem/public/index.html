@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title id="title"></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1 id="logo"></h1>
+  <button onclick="abrirWhats()">AGENDAR</button>
+</header>
+
+<section class="hero">
+  <h2>Massagem Tântrica</h2>
+  <p>Conexão profunda entre corpo, mente e energia</p>
+  <button onclick="scrollToAgenda()">Agendar Agora</button>
+</section>
+
+<section class="servicos">
+  <h2>Serviços</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Tântrica</h3>
+      <p>R$ 350</p>
+    </div>
+    <div class="card">
+      <h3>Relaxante</h3>
+      <p>R$ 250</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Galeria</h2>
+  <div id="galeria"></div>
+</section>
+
+<section id="agenda">
+  <h2>Agendar</h2>
+  <input type="date" id="data">
+  <input type="time" id="hora">
+  <button onclick="agendar()">Confirmar</button>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
